@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="static/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript on steoroid</title>
+</head>
+<body> 
+    <div class="container-1">
+    <h2>Challenge 1: Your Age in Days</h2>
+    <div class="flex-box-container-1">
+    <div>
+    <button class="btn btn-primary"onclick="ageindays()">click me</button>
+</div>
+<div >
+    <button class="btn btn-danger" onclick="reset()">reset</button>
+</div>
+</div>
+<div class="flex-box-container-1">
+    <div id="flex-box-result"></div>
+</div>
+</div>
+<div class="container-2">
+    <h2>Challenge 2:Cat Generator</h2>
+    <button class="btn btn-success" id="cat-generator" onclick="generatecat()">Generate Cat</button>
+    <div class="flex-box-container-2" id="flex-cat-gen">
+       
+    </div>
+</div>
+ <div class="container-3">
+     <h2>Challenge 3:Rock,Paper,Scissors</h2>
+     <div class="flex-box-rps" id="flex-box-rps-div">
+         <img id="rock" src="img/images.jpeg" height="150px" width="150px" alt="" onclick="rpsGame(this)">
+         <img id="paper" src="img/download.jpeg" alt="" height="150px" width="150px" onclick="rpsGame(this)">
+          <img id="scissors" src="img/download.png" alt="" height="150px" width="150px" onclick="rpsGame(this)">
+        </div>
+ </div>
+    <script src="static/index.js">
+
+    </script>
+</body>
+</html>
